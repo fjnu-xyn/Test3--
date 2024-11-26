@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>-->
+
+    <style name="Theme.MyApplication." parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+    </style>
+    <style name="MyActionModeStyle" parent="Widget.AppCompat.ActionMode">
+        <item name="background">@color/deep_blue</item> <!-- 深蓝色 -->
+        <item name="titleTextStyle">@style/MyActionModeTitleTextStyle</item>
+    </style>
+
+    <style name="MyActionModeTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item> <!-- 设置标题文字颜色 -->
+    </style>
+</resources>
